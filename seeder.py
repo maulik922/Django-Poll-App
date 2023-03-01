@@ -6,7 +6,6 @@ import time
 from faker import Faker
 fake = Faker()
 
-
 def seed_users(num_entries=10, overwrite=False):
     """
     Creates num_entries worth a new users
